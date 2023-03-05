@@ -34,7 +34,7 @@ function calculateResult(operator) {
     displayResult(operator, num1, num2, result);
 }
 function displayResult(operator, num1, num2, result) {
-    let resultString = num1 + "" + operator + " " + num2 + " = " + result;
+    let resultString = num1 + " " + operator + " " + num2 + " = " + result;
     let newParagraph = document.createElement("p");
     newParagraph.textContent = resultString;
     document.getElementById("previous").appendChild(newParagraph);
