@@ -10,8 +10,7 @@ function changeHeadlineInputValue(newHeadline){
 }
 
 function testCode(){
-    let input = prompt("Type something: ")
-    document.write(input)
+    document.getElementById("prompt-input").innerText = prompt("Type something: ")
 }
 
 function addItemEvent(){
