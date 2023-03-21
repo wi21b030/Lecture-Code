@@ -1,0 +1,24 @@
+body{
+    background: #ccc;
+}
+
+#main-headline{
+    font-family: sans-serif;
+}
+
+#paragraph-1{
+    color: blue;
+}
+
+.list-item{
+    font-size: x-large;
+}
+
+.secondary-headline{
+    font-style: italic;
+}
+
+#main-list{
+    color: red;
+    margin-right: 10px;
+}
