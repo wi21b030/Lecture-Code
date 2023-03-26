@@ -1,0 +1,12 @@
+* {
+    font-size: 15px;
+    font-family: "Sans Serif Collection";
+}
+
+.list-item {
+    color: blue;
+}
+
+#add, #removeListItem, #hide, #show, #reverse {
+    font-style: italic;
+}
