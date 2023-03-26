@@ -1,5 +1,22 @@
 $(document).ready(function (){
 
+    // append all input fields, buttons and lists in body dynamically
+
+    let $body = $('body')
+
+    $body.append(
+        "<input type='text' id='item'>" +
+        "<button id='add'>add</button>" +
+        "<input id='index' type='text' placeholder='Type Index of Item'>" +
+        "<button id='removeListItem'>remove</button>" +
+        "<button id='reverse'>reverse</button>" +
+        "<button id='hide'>hide</button>" +
+        "<button id='show'>show</button>" +
+        "<ol></ol>"
+    )
+
+    // create $ol for easy access to list
+
     let $ol = $('ol').first()
 
     // add elements function from example code
@@ -16,11 +33,6 @@ $(document).ready(function (){
     // add other buttons after "add"-button
 
     $addButton.after(
-        "<input id='index' type='text' placeholder='Type Index of Item'>" +
-        "<button id='removeListItem'>remove</button>" +
-        "<button id='reverse'>reverse</button>" +
-        "<button id='hide'>hide</button>" +
-        "<button id='show'>show</button>"
     )
 
     // remove list element
