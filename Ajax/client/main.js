@@ -3,8 +3,8 @@ let url = "../api?method=read"
 function addPersonEntry(person){
     let $tr = $('tr')
     $tr.append('<td>' + person.firstname + '</td>')
-    $tr.append('<td>' + person.firstname + '</td>')
-    $('#persons-table').find('tbody').append('$tr')
+    $tr.append('<td>' + person.lastname + '</td>')
+    $('#persons-table').find('tbody').append($tr)
 }
 
 let config = {
