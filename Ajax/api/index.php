@@ -12,7 +12,7 @@
             $persons = readPersons();
             echo json_encode($persons);
         case 'write':
-
+            //
             break;
         default:
             
