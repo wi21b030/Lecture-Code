@@ -15,6 +15,9 @@ body:
         # :bulb: Solution (if already known)
         
         Fill out if discussion post is an Issue/Question
-  - type: textarea
+  - type: checkboxes
     attributes:
-      value: |
+      label: Answered?
+      options:
+        - label: Yes!
+        - label: Not yet!
