@@ -1,0 +1,19 @@
+title: "Question/Issue"
+body:
+  - type: textarea
+    attributes:
+      label: "Describe the Question/Issue"
+      value: |
+        # :pushpin: Description of the Issue/Question
+        
+        Fill out if discussion post is an Issue/Question
+        
+        # :triangular_flag_on_post: Root cause (if already known)
+        
+        Fill out if discussion post is an Issue/Question
+        
+        # :bulb: Solution (if already known)
+        
+        Fill out if discussion post is an Issue/Question
+    validations:
+      required: true
