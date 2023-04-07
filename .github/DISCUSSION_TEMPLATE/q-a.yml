@@ -1,6 +1,6 @@
-title: "[Q&A] "
+title: "Question/Issue"
 body:
-  - type: markdown
+  - type: textarea
     attributes:
       value: |
         # :pushpin: Description of the Issue/Question
@@ -14,9 +14,3 @@ body:
         # :bulb: Solution (if already known)
         
         Fill out if discussion post is an Issue/Question
-  - type: checkboxes
-    attributes:
-      label: Answered?
-      options:
-        - label: Yes!
-        - label: Not yet!
