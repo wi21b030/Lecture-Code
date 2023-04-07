@@ -1,4 +1,4 @@
-title: "Question/Issue"
+title: "Fill in Title of Issue/Question"
 body:
   - type: textarea
     attributes:
@@ -8,12 +8,19 @@ body:
         
         Fill out if discussion post is an Issue/Question
         
+        ---
+        
         # :triangular_flag_on_post: Root cause (if already known)
         
         Fill out if discussion post is an Issue/Question
         
+        ---
+        
         # :bulb: Solution (if already known)
         
         Fill out if discussion post is an Issue/Question
+        
+        ---
+        
     validations:
       required: true
