@@ -1,8 +1,8 @@
 title: "Question/Issue"
 body:
-  - label:
   - type: textarea
     attributes:
+      label: "Describe the Question/Issue"
       value: |
         # :pushpin: Description of the Issue/Question
         
