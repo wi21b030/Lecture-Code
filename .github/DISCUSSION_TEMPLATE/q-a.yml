@@ -15,3 +15,6 @@ body:
         # :bulb: Solution (if already known)
         
         Fill out if discussion post is an Issue/Question
+  - type: textarea
+    attributes:
+      label: "What's wrong?"
