@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="justify-content-center text-center">
+            <div class="row mb-3">
+                <div class="col-12 bg-secondary p-3">
+                    <label for="searchfield" class="form-label">Available Names: "Doe" | "Smith"</label>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="searchfield" placeholder="Search via lastname">
+                        <button type="button" class="btn btn-success" id="btn_Search">Search</button>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div id="searchResult">
+                        <label for="noOfentries" class="form-label">Number of entries found:</label>
+                        <div id="noOfentries"></div>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="personIdInput" placeholder="Enter Person ID">
+                        <button type="button" class="btn btn-primary" id="btn_SearchById">Search by ID</button>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div id="personSearchResult"></div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-warning" id="btn_ShowAll">Show All Persons</button>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div id="allPersonsResult"></div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <select class="form-select" id="departmentField" aria-label="Search via department">
+                            <option selected disabled>Select a department</option>
+                        </select>
+                        <button type="button" class="btn btn-primary" id="btn_SearchByDepartment">Search by
+                            Department</button>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div id="departmentSearchResult"></div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="keyInput" placeholder="Key (non-numeric)">
+                        <input type="text" class="form-control" id="valueInput" placeholder="Value">
+                        <button type="button" class="btn btn-success" id="btn_SetCookie">Set Cookie/Session
+                            Variable</button>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <button type="button" class="btn btn-danger" id="showCookies">Show Cookies/Session
+                        Variables</button>
+                    <button type="button" class="btn btn-primary" id="hideCookies">Hide Cookies/Session
+                        Variables</button>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div id="addCookieResult"></div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="controller.js" type="text/javascript"></script>
+</body>
+
+</html>
